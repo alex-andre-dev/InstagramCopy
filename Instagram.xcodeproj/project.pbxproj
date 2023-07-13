@@ -19,6 +19,9 @@
 		EC7CE9C02A5F84380006951C /* ImageSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7CE9BF2A5F84380006951C /* ImageSelectorController.swift */; };
 		EC7CE9C22A5F84440006951C /* NotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7CE9C12A5F84440006951C /* NotificationsController.swift */; };
 		EC7CE9C42A5F84540006951C /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7CE9C32A5F84540006951C /* ProfileController.swift */; };
+		EC7CE9C62A5F9A570006951C /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7CE9C52A5F9A570006951C /* FeedCell.swift */; };
+		EC7CE9C82A5F9B3F0006951C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7CE9C72A5F9B3F0006951C /* Extensions.swift */; };
+		EC7CE9CC2A5F9EDF0006951C /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7CE9CB2A5F9EDF0006951C /* Protocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		EC7CE9BF2A5F84380006951C /* ImageSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectorController.swift; sourceTree = "<group>"; };
 		EC7CE9C12A5F84440006951C /* NotificationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsController.swift; sourceTree = "<group>"; };
 		EC7CE9C32A5F84540006951C /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		EC7CE9C52A5F9A570006951C /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		EC7CE9C72A5F9B3F0006951C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EC7CE9CB2A5F9EDF0006951C /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,8 @@
 		EC7CE9B22A5F7FE10006951C /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				EC7CE9C72A5F9B3F0006951C /* Extensions.swift */,
+				EC7CE9CB2A5F9EDF0006951C /* Protocols.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -122,6 +130,7 @@
 		EC7CE9B72A5F80090006951C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EC7CE9C52A5F9A570006951C /* FeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -205,13 +214,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC7CE9A32A5F7EA90006951C /* ViewController.swift in Sources */,
+				EC7CE9C62A5F9A570006951C /* FeedCell.swift in Sources */,
 				EC7CE9C02A5F84380006951C /* ImageSelectorController.swift in Sources */,
+				EC7CE9CC2A5F9EDF0006951C /* Protocols.swift in Sources */,
 				EC7CE9BE2A5F84280006951C /* SearchController.swift in Sources */,
 				EC7CE99F2A5F7EA90006951C /* AppDelegate.swift in Sources */,
 				EC7CE9BC2A5F841D0006951C /* FeedController.swift in Sources */,
 				EC7CE9C42A5F84540006951C /* ProfileController.swift in Sources */,
 				EC7CE9BA2A5F81FA0006951C /* MainTabController.swift in Sources */,
 				EC7CE9C22A5F84440006951C /* NotificationsController.swift in Sources */,
+				EC7CE9C82A5F9B3F0006951C /* Extensions.swift in Sources */,
 				EC7CE9A12A5F7EA90006951C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
